@@ -1,5 +1,6 @@
 # draggingView
 
+![alt tag](https://raw.github.com/oday0311/draggingView/master/2.gif)
 
 ![alt tag](https://raw.github.com/oday0311/draggingView/master/1.png)
 
