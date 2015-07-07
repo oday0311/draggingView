@@ -20,6 +20,8 @@
 		6AAAEF731639868E00A01BF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAEF721639868E00A01BF7 /* Default-568h@2x.png */; };
 		6AAAEF761639868E00A01BF7 /* ZSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAAEF751639868E00A01BF7 /* ZSViewController.m */; };
 		6AAAEF791639868E00A01BF7 /* ZSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAEF771639868E00A01BF7 /* ZSViewController.xib */; };
+		FADDF0DA1B4B76F4008E3A7B /* polygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADDF0D91B4B76F4008E3A7B /* polygonView.m */; };
+		FADDF0DD1B4B7824008E3A7B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FADDF0DC1B4B7824008E3A7B /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,10 @@
 		6AAAEF741639868E00A01BF7 /* ZSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSViewController.h; sourceTree = "<group>"; };
 		6AAAEF751639868E00A01BF7 /* ZSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSViewController.m; sourceTree = "<group>"; };
 		6AAAEF781639868E00A01BF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZSViewController.xib; sourceTree = "<group>"; };
+		FADDF0D81B4B76F4008E3A7B /* polygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polygonView.h; sourceTree = "<group>"; };
+		FADDF0D91B4B76F4008E3A7B /* polygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = polygonView.m; sourceTree = "<group>"; };
+		FADDF0DB1B4B7824008E3A7B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		FADDF0DC1B4B7824008E3A7B /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 			children = (
 				6AAAEF6B1639868E00A01BF7 /* ZSAppDelegate.h */,
 				6AAAEF6C1639868E00A01BF7 /* ZSAppDelegate.m */,
+				FADDF0DB1B4B7824008E3A7B /* JSONKit.h */,
+				FADDF0DC1B4B7824008E3A7B /* JSONKit.m */,
+				FADDF0D81B4B76F4008E3A7B /* polygonView.h */,
+				FADDF0D91B4B76F4008E3A7B /* polygonView.m */,
 				6AAAEF741639868E00A01BF7 /* ZSViewController.h */,
 				6AAAEF751639868E00A01BF7 /* ZSViewController.m */,
 				6AAAEF771639868E00A01BF7 /* ZSViewController.xib */,
@@ -187,7 +197,9 @@
 				6AAAEF691639868E00A01BF7 /* main.m in Sources */,
 				6AAAEF6D1639868E00A01BF7 /* ZSAppDelegate.m in Sources */,
 				6AAAEF761639868E00A01BF7 /* ZSViewController.m in Sources */,
+				FADDF0DA1B4B76F4008E3A7B /* polygonView.m in Sources */,
 				6A98DEF1173AE9AD0010D5F0 /* UIView+ZSViewAdditions.m in Sources */,
+				FADDF0DD1B4B7824008E3A7B /* JSONKit.m in Sources */,
 				6A98DEF2173AE9AD0010D5F0 /* UIGestureRecognizer+DraggingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

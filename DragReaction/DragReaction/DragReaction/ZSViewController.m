@@ -8,7 +8,7 @@
 
 #import "ZSViewController.h"
 #import "UIGestureRecognizer+DraggingAdditions.h"
-
+#import "polygonView.h"
 @interface ZSViewController ()
 
 @property (strong, nonatomic) NSArray *evaluateViews;
@@ -18,6 +18,8 @@
 
 
 @property (strong, nonatomic) UIView* draggingView2;
+
+@property (strong, nonatomic) polygonView* polyView;
 @end
 
 @implementation ZSViewController
@@ -43,6 +45,10 @@
     
     [self.draggingView2 addGestureRecognizer:panReg];
     
+    
+    self.polyView = [[polygonView alloc] initWithFrame:CGRectMake(300, 300, 400, 400)];
+    [self.view addSubview:self.polyView];
+    self.polyView.backgroundColor = [UIColor redColor];
     
 }
 
