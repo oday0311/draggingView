@@ -10,4 +10,7 @@
 
 @interface polygonView : UIView
 
+
+
+@property (nonatomic, strong) UIImageView* coverImageview;
 @end

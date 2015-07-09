@@ -20,6 +20,9 @@
 		6AAAEF731639868E00A01BF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAEF721639868E00A01BF7 /* Default-568h@2x.png */; };
 		6AAAEF761639868E00A01BF7 /* ZSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAAEF751639868E00A01BF7 /* ZSViewController.m */; };
 		6AAAEF791639868E00A01BF7 /* ZSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAEF771639868E00A01BF7 /* ZSViewController.xib */; };
+		FAC3F0EF1B4EABE000D85F33 /* guide.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC3F0EE1B4EABE000D85F33 /* guide.png */; };
+		FAC3F0F11B4EAC3900D85F33 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC3F0F01B4EAC3900D85F33 /* 1.png */; };
+		FAC3F0F31B4EACA900D85F33 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC3F0F21B4EACA900D85F33 /* 2.png */; };
 		FADDF0DA1B4B76F4008E3A7B /* polygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADDF0D91B4B76F4008E3A7B /* polygonView.m */; };
 		FADDF0DD1B4B7824008E3A7B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FADDF0DC1B4B7824008E3A7B /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -45,6 +48,9 @@
 		6AAAEF741639868E00A01BF7 /* ZSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSViewController.h; sourceTree = "<group>"; };
 		6AAAEF751639868E00A01BF7 /* ZSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSViewController.m; sourceTree = "<group>"; };
 		6AAAEF781639868E00A01BF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZSViewController.xib; sourceTree = "<group>"; };
+		FAC3F0EE1B4EABE000D85F33 /* guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide.png; sourceTree = "<group>"; };
+		FAC3F0F01B4EAC3900D85F33 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FAC3F0F21B4EACA900D85F33 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		FADDF0D81B4B76F4008E3A7B /* polygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polygonView.h; sourceTree = "<group>"; };
 		FADDF0D91B4B76F4008E3A7B /* polygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = polygonView.m; sourceTree = "<group>"; };
 		FADDF0DB1B4B7824008E3A7B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 		6AAAEF631639868E00A01BF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAC3F0F01B4EAC3900D85F33 /* 1.png */,
+				FAC3F0F21B4EACA900D85F33 /* 2.png */,
+				FAC3F0EE1B4EABE000D85F33 /* guide.png */,
 				6AAAEF641639868E00A01BF7 /* DragReaction-Info.plist */,
 				6AAAEF651639868E00A01BF7 /* InfoPlist.strings */,
 				6AAAEF681639868E00A01BF7 /* main.m */,
@@ -179,11 +188,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC3F0EF1B4EABE000D85F33 /* guide.png in Resources */,
 				6AAAEF671639868E00A01BF7 /* InfoPlist.strings in Resources */,
+				FAC3F0F31B4EACA900D85F33 /* 2.png in Resources */,
 				6AAAEF6F1639868E00A01BF7 /* Default.png in Resources */,
 				6AAAEF711639868E00A01BF7 /* Default@2x.png in Resources */,
 				6AAAEF731639868E00A01BF7 /* Default-568h@2x.png in Resources */,
 				6AAAEF791639868E00A01BF7 /* ZSViewController.xib in Resources */,
+				FAC3F0F11B4EAC3900D85F33 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				INFOPLIST_FILE = "DragReaction/DragReaction-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,6 +313,7 @@
 				INFOPLIST_FILE = "DragReaction/DragReaction-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -46,9 +46,9 @@
     [self.draggingView2 addGestureRecognizer:panReg];
     
     
-    self.polyView = [[polygonView alloc] initWithFrame:CGRectMake(300, 300, 400, 400)];
+    self.polyView = [[polygonView alloc] initWithFrame:CGRectMake(100, 100, 448 , 448)];
     [self.view addSubview:self.polyView];
-    self.polyView.backgroundColor = [UIColor redColor];
+    self.polyView.backgroundColor = [UIColor grayColor];
     
 }
 
